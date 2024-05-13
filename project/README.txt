@@ -1,0 +1,4 @@
+USUARIO Y CLAVE PARA EL ADMIN DE LAS BASES DE DATOS
+
+Usuario: ale
+Password: Pau01ale79
