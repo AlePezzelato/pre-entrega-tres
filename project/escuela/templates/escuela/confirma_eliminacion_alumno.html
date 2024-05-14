@@ -1,0 +1,19 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    <h2>Eliminar alumno/a</h2>
+{% endblock title %}
+
+{% block content %}
+    <h1>Colegio Las Brusquitas</h1>
+    <h2>Eliminar alumno/a</h2>
+
+    <p class="fs-4  float-md-start ">¿Esta seguro de eliminar "{{object.nombre}}"?</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Confirmar</button>
+    </form>
+    <div class="url escuela:index">Evitar la eliminacion</div>
+    
+{% endblock content %}

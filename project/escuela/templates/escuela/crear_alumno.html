@@ -8,9 +8,11 @@
     <h1>Colegio Las Brusquitas</h1>
     <h2>Agregar alumno/a</h2>
 
-    <form action="" method="post">
+    <form method="post">
         {% csrf_token %}
-            {{ form }}
+        <table>
+            {{ form.as_table }}
+        </table>
             <button type="submit">Agregar</button>
     </form>
 
